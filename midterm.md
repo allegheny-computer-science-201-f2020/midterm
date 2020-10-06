@@ -30,7 +30,7 @@ Draw a parse tree or write out the derivation for the string `a * a + a * a` or 
   S -> num | S var S
   ```
 
-7. [14 points] Given the following grammar, use the shift-reduce algorithm to parse the input string `num + num + num` or demonstrate that this is not possible. Show all of your steps.
+7. [12 points] Given the following grammar, use the shift-reduce algorithm to parse the input string `num + num + num` or demonstrate that this is not possible. Show all of your steps.
 
 ```
 S' -> S
@@ -49,11 +49,13 @@ E -> num
   - Storage allocation method for a variable
 
 
-9. [10 points]
+9. [12 points]
 Answer two questions about the following Java program; use the line numbers to identify particular statements or variables. Assume that `Widget` is a valid class defined in some other file.
 
    <img src="https://github.com/allegheny-computer-science-201-f2020/midterm-review/blob/main/images/widget.png" width="500" height="500">
-
+ 
+ - On line 5, is stack or heap allocation is performed? Justify your answer.
+ 
 - Suppose method `func2` calls method `func1`. What variables are stored in `func1`'s stack frame?
 
 - Suppose method `func2` calls method `func1`. What variables are stored in `func2`'s stack frame?
@@ -77,8 +79,9 @@ Answer two questions about the following Java program; use the line numbers to i
 10. console.log(num);
 ```
 
+
   - What is the output of the program? 
   
-  - What is the scope of `num` in `func1`, `func2`, and on line 10?
+  - What are the scopes of `num` in `func1`, `func2`, and on line 10?
 
 
